@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+* {
+    box-sizing: border-box;
+}
+body {
+    background: rgb(99, 169, 235) url("../Images/main-bg.jpg") no-repeat fixed top;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    background-size: cover;
+    backdrop-filter: blur(80px);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    background-color: #202a42c2;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 500px;
+    height: 700px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 30px #0000005e;
+}
+.container-content .header {
+    text-align: center;
+}
+.container-content .header-cover img {
+    width: 100%;
+}
+.container-content .header .header-avatar {
+    width: 190px;
+    border: 7px solid #ffffff5c;
+    border-radius: 50%;
+    margin: -105px auto auto auto;
+    box-shadow: 0 0 15px #333333c9;
+}
+.container-content .body-content {
+    margin-bottom: 25px;
+}
+.container-content .body-content .info {
+    padding: 10px 15px;
+    text-align: center;
+}
+.container-content .body-content .info-title {
+    color: #fff;
+    font-weight: 250;
+    font-size: 17px;
+    margin: 0;
+}
+.container-content .body-content .info-name {
+    margin: 5px;
+}
+.container-content .body-content .info-description {
+    margin: 15px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+}
+.container-content .body-content .info-actions {
+    margin-top: 20px;
+}
+.button {
+    margin: 10PX 20PX 10PX 20px;
+    color: #fff;
+    background-color: #333;
+    box-shadow: 0 10px 10px -8px rgba(0, 0, 0, 0.78);
+    display: inline-block;
+    padding: 0.8em 2.1em;
+    font-size: 1em;
+    line-height: 1.2;
+    border: 2px solid #007ced;
+    text-shadow: none;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 10px 10px -8px rgba(0, 0, 0, 0.22);
+}
+.button:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+.button.normal {
+    margin-left: 15px;
+    border-color: rgb(224, 54, 210);
+}
+.button.normal:hover {
+    border-color: rgb(224, 54, 210);
+    background-color: rgb(224, 54, 210);
+}
